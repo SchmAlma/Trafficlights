@@ -13,8 +13,7 @@ public class Main
         kreuzung.start();
     }
 
-}
-public class Ampel
+} public class Ampel
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     boolean red;
@@ -79,7 +78,7 @@ public class Ampel
             System.out.println("Gelb");
         }
     }
-}public class Kreuzung extends Thread
+} public class Kreuzung extends Thread
 {
     private Ampel A1;
     private Ampel A2;
